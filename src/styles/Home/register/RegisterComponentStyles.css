@@ -1,0 +1,9 @@
+.Register_Body {
+  padding: 25px;
+  background: #e6d6d6;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 430px;
+}

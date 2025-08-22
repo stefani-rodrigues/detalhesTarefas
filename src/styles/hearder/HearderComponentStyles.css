@@ -1,0 +1,16 @@
+.HeaderComponentBody {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: calc(100vw - 40px);
+  padding: 20px;
+
+  .button {
+    align-self: center;
+    justify-items: left;
+    left: 100px;
+    position: absolute;
+    color: #080808;
+    cursor: pointer;
+  }
+}

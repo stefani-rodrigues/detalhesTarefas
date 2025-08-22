@@ -1,0 +1,11 @@
+.HomeListTask_Body {
+  width: 430px;
+  max-height: 45vh;
+  padding: 25px;
+  background: #e6d6d6;
+  border-radius: 5px;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}

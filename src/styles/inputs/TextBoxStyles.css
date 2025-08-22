@@ -1,0 +1,10 @@
+.TextBox {
+  height: 30px;
+  border-radius: 5px;
+  padding: 8px;
+  border: none;
+}
+
+.TextBox:focus {
+  outline: none;
+}

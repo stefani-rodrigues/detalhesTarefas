@@ -1,0 +1,17 @@
+.ButtonCheck {
+  height: 35px;
+  width: 35px;
+  background-color: #f5f8f4;
+  border: 0;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s, box-shadow 0.2s;
+}
+
+.ButtonCheck:hover {
+  background-color: #3a9442;
+  transform: scale(0.96);
+}

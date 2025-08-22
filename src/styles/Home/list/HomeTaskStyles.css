@@ -1,0 +1,22 @@
+.HomeTask_body {
+  display: flex;
+  align-items: center;
+  justify-content: first baseline;
+  gap: 10px;
+
+  .HomeTask_task {
+    display: flex;
+    height: 35px;
+    width: 100%;
+    padding: 0px 5px;
+    background-color: #fffbfb;
+    border-radius: 5px;
+    align-items: center;
+
+    h4 {
+      color: #000000;
+      font-size: medium;
+      font-family: Georgia, "Times New Roman", Times, serif;
+    }
+  }
+}
