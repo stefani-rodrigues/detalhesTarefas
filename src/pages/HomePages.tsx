@@ -34,10 +34,17 @@ function HomePages() {
 
   return (
     <div className="HomePagesBody">
-      <div className="title">Gerenciamento de tarefas</div>
-      <RegisterComponent addTask={addTask} />
-      <div className="titleList">Listas de tarefas</div>
-      <HomeLisTaskComponent listaTarefas={listTask} deleteTask={deleteTask} />
+      <div className="header">
+        <h1>Gerenciamento de tarefas </h1>
+      </div>
+      <div className="title">
+        Cadastrar tarefa
+        <RegisterComponent addTask={addTask} />
+      </div>
+      <div className="titleList">
+        Listas de tarefas
+        <HomeLisTaskComponent listaTarefas={listTask} deleteTask={deleteTask} />
+      </div>
     </div>
   );
 }

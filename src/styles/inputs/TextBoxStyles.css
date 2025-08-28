@@ -3,6 +3,8 @@
   border-radius: 5px;
   padding: 8px;
   border: none;
+  border-radius: 10px;
+  border: 1px solid #66666656;
 }
 
 .TextBox:focus {

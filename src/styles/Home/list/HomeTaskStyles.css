@@ -3,13 +3,15 @@
   align-items: center;
   justify-content: first baseline;
   gap: 10px;
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid #66666642;
 
   .HomeTask_task {
     display: flex;
     height: 35px;
     width: 100%;
     padding: 0px 5px;
-    background-color: #fffbfb;
     border-radius: 5px;
     align-items: center;
 

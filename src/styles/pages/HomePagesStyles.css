@@ -6,20 +6,32 @@
   gap: 10px;
 }
 .title {
-  margin-top: 30px;
-  width: 440px;
+  background-color: aliceblue;
+  margin-top: 50px;
   align-items: center;
+  text-align: center;
   padding: 30px;
-  font-size: 35px;
+  font-size: 30px;
+  border-radius: 10px;
+  border: 1px solid #66666660;
   font-family: "Fredoka", sans-serif;
-  font-weight: 600;
 }
 
 .titleList {
+  background-color: aliceblue;
   display: flex;
-  align-items: flex-start;
+  flex-direction: column;
+  text-align: center;
   padding: 30px;
   font-size: 35px;
   font-family: "Fredoka", sans-serif;
-  font-weight: 600;
+  border: 1px solid #66666660;
+  font-family: "Fredoka", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 20px;
 }

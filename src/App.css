@@ -8,4 +8,8 @@ body {
   min-width: 100vw;
   min-height: 100vh;
   width: 100%;
+  background-color: #a099d4;
+  background-image: url("../src/assets/backgroud.png");
+  background-repeat: no-repeat;
+  background-position: left;
 }
